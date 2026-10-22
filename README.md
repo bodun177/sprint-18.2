@@ -4,7 +4,7 @@
 We have DataItem component that can have exception thrown on rendering.
 <div><img src="./images/data-item.png" width="300px"></div>
 Please, create DataList component. This component shoud render Dataitem 3 times. Each time it should be wrapped in error boundary, so that if exception will be thrown, error boundary will provide fallback ui.<br>
-Fallback ui should be provided by ErrorFallback component. It should display message of thrown error and give an ability to retry creating DataItem component by clicking on 'Try again' button
+Fallback ui should be provided by ErrorFallback component. It should display message of thrown error and give an ability to retry creating DataItem component by clicking on 'Try again ' button
 <div><img src="./images/fallback-ui.png" width="300px"></div><br>
 
 ##  `2*. for error in click handler`
